@@ -16,9 +16,9 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 2rem;
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem;
     background: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -811,5 +811,113 @@ footer a:hover {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    header {
+        min-height: auto;
+        padding: 2rem 1rem;
+        margin: 0.5rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .social-links {
+        gap: 1rem;
+    }
+
+    .social-links a {
+        font-size: 1.5rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    section {
+        padding: 2rem 1rem;
+        margin: 1rem 0;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .project-card {
+        width: 100%;
+        margin: 0 0 1.5rem 0;
+    }
+
+    .projects-carousel {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-details {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .about-item {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .key-points {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-date {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content .title {
+        font-size: 1.2rem;
+    }
+
+    .hero-content .tagline {
+        font-size: 1rem;
+    }
+
+    .hero-content .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .social-links {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
