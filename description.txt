@@ -1,0 +1,20 @@
+# Alfred G. Papa - Professional Portfolio
+
+## Overview
+A professional portfolio website showcasing Alfred G. Papa's expertise as a Management Professional with focus on policy development, procurement, and administrative leadership.
+
+## Key Features
+- Professional profile highlighting management skills and accomplishments
+- Skills visualization with progress indicators
+- Project showcase carousel featuring recent work
+- Detailed professional experience with metrics and achievements
+- Contact form and downloadable resume
+
+## Technical Details
+- Built with HTML5, CSS3, and JavaScript
+- Mobile-responsive design
+- Clean and professional UI with modern animations
+- Social media integration for LinkedIn, Facebook, GitHub, and direct messaging
+
+## Target Audience
+Management professionals, potential employers, and professional network connections seeking a qualified policy development and procurement specialist. 
